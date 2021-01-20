@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Animais Fantásticos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script> // classe adicionada ao html se javascript estiver habilitado
+    document.documentElement.className += ' js';
+  </script>
+</head>
+
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown><a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login</a></li>
+      </ul>
+    </nav>
+
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais Fantásticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li><img src="img/imagem1.jpg" alt="Raposa"> </li>
+        <li> <img src="img/imagem2.jpg" alt="Esquilo"></li>
+        <li><img src="img/imagem3.jpg" alt="Urso"></li>
+        <li> <img src="img/imagem4.jpg" alt="Lobo"></li>
+        <li><img src="img/imagem5.jpg" alt="Macaco"></li>
+        <li><img src="img/imagem6.jpg" alt="Leão"></li>
+      </ul>
+
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa</h2>
+          <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados
+            por um focinho comprido e uma cauda longa e peluda.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do
+            qual a raposa vermelha é a mais comum.</p>
+          <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+
+        <section data-anime="show-down">
+          <h2>Esquilo</h2>
+          <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirim, quatipuru, agutipuru ou acutipuru. </p>
+          <p> Os esquilos estão espalhados por quase todo o mundo, a maioria nas zonas de climas temperado ou tropical, mas também em algumas zonas de clima frio. Como todos os roedores, possui presas fortíssimas, com que roem facilmente sementes, principalmente bolotas.</p>
+          <p>As sementes são as principais fontes de alimentação, mas também consomem insetos e frutas. Quando coletam alimento, enterram algumas sementes que encontram, sendo que algumas chegam a germinar, como pinhões e coquinhos, acabando por plantar árvores como araucária e jerivá.</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Urso</h2>
+          <p>Os Ursos constituem uma família de mamíferos plantígrados, da ordem Carnivora, geralmente de grande porte, contendo os ursos e os pandas. Embora classificado como urso, e logo após, como procionídeo, junto com o panda-vermelho, o panda-gigante foi recolocado dentro da família dos ursídeos devido às novas pesquisas genéticas. </p>
+          <p> Algumas características comuns dos ursos são pelagem espessa, rabo curto, o olfato desenvolvido e as garras não retráteis. Os ursídeos são geralmente animais omnívoros, mas se alimentam principalmente de carne. </p>
+          <p> Os ursos existem em todos os continentes, em exceção na África, embora algumas fontes afirmem terem avistado o Urso nandi, mas sem comprovarem a sua existência.</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>O lobo (também chamado de lobo-cinzento; nome científico: Canis lupus) é uma espécie de mamífero canídeo do gênero Canis. É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás. É o maior membro remanescente selvagem da família canidae.</p>
+          <p>O sequenciamento de DNA e estudos genéticos reafirmam que o lobo-cinzento é ancestral do cão doméstico (Canis lupus familiaris), contudo alguns aspectos desta afirmação têm sido questionados recentemente.</p>
+          <p>Os lobos-cinzentos são tipicamente predadores ápice nos ecossistemas que ocupam. Embora não sejam tão adaptáveis à presença humana como geralmente ocorre com as demais espécies de canídeos, os lobos se desenvolveram em diversos ambientes, como florestas temperadas, desertos, montanhas, tundras, taigas, campos e até mesmo em algumas áreas urbanas.</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>Macaco é um termo de origem africana (provavelmente do banto makako) utilizado como designação comum a todas as espécies de símios ou primatas antropoides. É aplicada restritivamente no Brasil aos cebídeos (ou macacos do Novo Mundo) em geral.</p>
+          <p>A designação mico se origina do caraíba (karib) continental. É bastante usada no Brasil, onde costuma aplicar-se às espécies do gênero Cebus, no Sul, e às espécies de pequeno porte, ou saguis, no Norte.</p>
+          <p>O termo sagui se origina do tupi antigo sagûi e também designa os macacos calitriquídeos de pequeno porte.</p>
+          <p> O termo símio, que também designa os macacos, vem do latim simius, de simus, "que tem o nariz chato".</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Leão</h2>
+          <p>O leão é uma espécie de mamífero carnívoro do gênero Panthera e da família Felidae. A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população remanescente em perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia.</p>
+          <p>Foi extinto na África do Norte e no Sudoeste Asiático em tempos históricos, e até o Pleistoceno Superior, há cerca de 10 000 anos, era o mais difundido grande mamífero terrestre depois dos humanos, sendo encontrado na maior parte da África, em muito da Eurásia, da Europa Ocidental à Índia, e na América, do Yukon ao México.</p>
+          <p>É uma dos quatro grandes felinos, com alguns machos excedendo 250 quilogramas em peso, sendo o segundo maior felino recente depois do tigre. A pelagem é unicolor de coloração castanha, e os machos apresentam uma juba característica.</p>
+          <p>Fonte: Wikipedia.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, illum labore placeat, necessitatibus, unde cum eligendi quis nesciunt nisi obcaecati nihil! Facilis quam delectus alias?</dd>
+        <dt>Eles são fantásticos?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et expedita numquam dolor, dolorem animi sequi eos fuga inventore!</dd>
+        <dt>Qual a diferença?</dt>
+        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod excepturi, est nihil vero officia magni consequatur minus eius doloremque, soluta fuga voluptatum.</dd>
+        <dt>Como proteger?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nulla cum molestiae ullam explicabo sunt eius aliquam voluptate! Assumenda, quos.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+        <div class="numero-animal">
+          <h3>Lobos</h3>
+          <span data-numero>4874</span>
+        </div>
+        <div class="numero-animal">
+          <h3>Raposas</h3>
+          <span data-numero>5873</span>
+        </div>
+        <div class="numero-animal">
+          <h3>Esquilos</h3>
+          <span data-numero>12458</span>
+        </div>
+        <div class="numero-animal">
+          <h3>Ursos</h3>
+          <span data-numero>230</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento">
+        <img src="img/mapa.png" alt="Mapa">
+      </div>
+      <ul class="dados">
+        <li>Projeto elaborado durante o curso de Javascript do Origamid.</li>
+        <li>email@email.com</li>
+        <li>+55 (11) 9999-9999</li>
+        <li>Rua Javascript, nº 100</li>
+        <li>São Paulo - SP</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg a Sex das 8 às 18h</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">E-mail</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
